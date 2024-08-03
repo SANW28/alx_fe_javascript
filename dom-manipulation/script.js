@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     let quotes = JSON.parse(localStorage.getItem('quotes')) || [
         { text: "The only limit to our realization of tomorrow is our doubts of today.", category: "Motivation" },
-        { text: "Life is 10% what happens to us and 90% how we react to it.", category: "Life" },
-        { text: "The purpose of our lives is to be happy.", category: "Happiness" },
+        { text: "Don’t watch the clock; do what it does. Keep going.", category: "Motivation" },
+        { text: "Success is not the key to happiness. Happiness is the key to success.", category: "Success" },
     ];
   
     const quoteDisplay = document.getElementById('quoteDisplay');
