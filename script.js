@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){;
        {text:"Tell me and I forget, teach me and I may remember, involve me and I learn.", category: "Motivational"}, 
        {text:"Develop a passion for learning. If you do, you will never cease to grow", category:"Motivaional"},
        {text:"He who laughs most, learns best", category:"Motivational"},
-       {text:"In the end we retain from our studies only that which we practically apply", category:"Motivational"},
-       {text: "The beautiful thing about learning is nobody can take it away from you", category: "Motivational"}
+       {text:"In the end we retain from our studies only that which we practically apply", category:"Motivational"}
     ];
 
 
