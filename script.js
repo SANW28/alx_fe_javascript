@@ -21,4 +21,28 @@ function showRandomQuote () {
 showRandomQuote();
 
 newQuoteButton.addEventListener('click', showRandomQuote);
+
+window.addQuote = function(){
+    const newQuoteText = document.getElementById('newQuoteText').ariaValueMax.trim();
+    const newQuoteCategory = document.getElementById('newQuoteCategory').value.trim();
+
+        if (newQuoteText === "" || newQuoteCategory === "") {
+            alert("Please enter both quote text and category.");
+            return;
+        }
+
+        
+        const newQuote = { text: newQuoteText, category: newQuoteCategory };
+        quotes.push(newQuote);
+
+       
+        document.getElementById('newQuoteText').value = '';
+        document.getElementById('newQuoteCategory').value = '';
+        quoteDisplay.textContent = `"${newQuote.text}" - ${newQuote.category}`;
+
+};
+
+
+
+
 });
